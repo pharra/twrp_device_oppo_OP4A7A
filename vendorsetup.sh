@@ -4,41 +4,41 @@
 #
 # SPDX-License-Identifier: Apache-2.0
 #
-# ¹ØÓÚ³Èºü±äÁ¿Ïê¼û OrangeFox_10/fox_10.0/vendor/recovery/orangefox_build_vars.txt
+# å…³äºŽæ©™ç‹å˜é‡è¯¦è§ OrangeFox_10/fox_10.0/vendor/recovery/orangefox_build_vars.txt
 
 	export LC_ALL="C"
 	export ALLOW_MISSING_DEPENDENCIES=true
 
-	echo -e "\x1b[128mOP4EC1: ¿ªÊ¼Ìí¼ÓOrangeFox Vars...\x1b[m"
-	## ¹¹½¨ÐÅÏ¢
-	# ÉèÖÃÏÔÊ¾ÔÚ¹ØÓÚÒ³ÃæÀïµÄÎ¬»¤ÈËÔ±Ãû³Æ
-	export OF_MAINTAINER=youngguo
-	# ÉèÖÃ°æ±¾ºÅÎªÈÕÆÚ
+	echo -e "\x1b[128mOP4A7A: å¼€å§‹æ·»åŠ OrangeFox Vars...\x1b[m"
+	## æž„å»ºä¿¡æ¯
+	# è®¾ç½®æ˜¾ç¤ºåœ¨å…³äºŽé¡µé¢é‡Œçš„ç»´æŠ¤äººå‘˜åç§°
+	export OF_MAINTAINER=pharra
+	# è®¾ç½®ç‰ˆæœ¬å·ä¸ºæ—¥æœŸ
 	export FOX_VERSION=$(date +%y.%m.%d)
 
-	## Ìí¼Ó¹¦ÄÜ
-	# Ê¹ÓÃÍêÕû°æpsÃüÁî
+	## æ·»åŠ åŠŸèƒ½
+	# ä½¿ç”¨å®Œæ•´ç‰ˆpså‘½ä»¤
 	export FOX_REPLACE_BUSYBOX_PS=1
-	# Ê¹ÓÃÍêÕû°ægetpropÃüÁî
+	# ä½¿ç”¨å®Œæ•´ç‰ˆgetpropå‘½ä»¤
 	export FOX_REPLACE_TOOLBOX_GETPROP=1
-	# Ö§³ÖtarÃüÁî
+	# æ”¯æŒtarå‘½ä»¤
 	export FOX_USE_TAR_BINARY=1
-	# Ö§³ÖsedÃüÁî
+	# æ”¯æŒsedå‘½ä»¤
 	export FOX_USE_SED_BINARY=1
-	# Ê¹ÓÃbash´úÌæshºÍash
+	# ä½¿ç”¨bashä»£æ›¿shå’Œash
 	export FOX_USE_BASH_SHELL=1
 	export FOX_ASH_IS_BASH=1
-	# Ê¹ÓÃÍêÕû°ægrepÃüÁî
+	# ä½¿ç”¨å®Œæ•´ç‰ˆgrepå‘½ä»¤
 	export FOX_USE_GREP_BINARY=1
-	# Ö§³Ölzma, xzÃüÁî
+	# æ”¯æŒlzma, xzå‘½ä»¤
 	export FOX_USE_XZ_UTILS=1
-	# Ê¹ÓÃ³Èºü±àÒëµÄNANO±à¼­Æ÷
+	# ä½¿ç”¨æ©™ç‹ç¼–è¯‘çš„NANOç¼–è¾‘å™¨
 	export FOX_USE_NANO_EDITOR=1
-	# Ìí¼Óphhusson's lptools¹¤¾ß
+	# æ·»åŠ phhusson's lptoolså·¥å…·
 	export OF_ENABLE_LPTOOLS=1
 
-	# Ê¹³Èºü¿ÉÒÔË¢Èë¾ßÓÐ»úÐÍ¼ì²âÏÞÖÆ£¬ÓëTARGET_OTA_ASSERT_DEVICE³åÍ»
-	# export OF_TARGET_DEVICES="OP4EC1,OP4F7FL1"
+	# ä½¿æ©™ç‹å¯ä»¥åˆ·å…¥å…·æœ‰æœºåž‹æ£€æµ‹é™åˆ¶ï¼Œä¸ŽTARGET_OTA_ASSERT_DEVICEå†²çª
+	# export OF_TARGET_DEVICES="OP4A7A"
 
 
-	echo -e "\x1b[128mOP4EC1: µ±Äã¿´µ½Õâ¸öÏûÏ¢µÄÊ±ºò£¬ËùÓÐµÄOrangeFox VarÒÑ¾­Ìí¼ÓÍê±Ï£¡\x1b[m"
+	echo -e "\x1b[128mOP4A7A: å½“ä½ çœ‹åˆ°è¿™ä¸ªæ¶ˆæ¯çš„æ—¶å€™ï¼Œæ‰€æœ‰çš„OrangeFox Varå·²ç»æ·»åŠ å®Œæ¯•ï¼\x1b[m"
